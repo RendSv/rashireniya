@@ -6,7 +6,7 @@ function deleteBlock() {
         document
     .getElementsByClassName(
         "ContributionCalendar-day"
-        )[0].remove();
+        )[0].style.backgroundColor == "#008000";
 }
 
 deleteBlock();
